@@ -268,11 +268,15 @@ body {
 main {
   min-height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 .container {
   /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  
   width: 90vw;
   max-width: var(--fixed-width);
   margin: 5rem 0;
